@@ -1,3 +1,5 @@
+import java.util.*
+
 class Colours {
 
     private val colours = listOf("Red", "Orange", "Yellow", "Green", "Blue", "Indigo", "Violet", "Black", "Silver")
@@ -67,7 +69,9 @@ class Colours {
         return colours.filter { it.length > size }
     }
 
-
+    fun coloursLowerCase(): List<String> {
+       return colours.map { it.lowercase() }
+    }
 }
 
 

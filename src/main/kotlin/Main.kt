@@ -49,9 +49,11 @@ fun main(args: Array<String>){
     //    Colour: Orange
     //    ...
     //    Colour: Silver
-    // contains one of the new functions 
+    // contains one of the new functions
     print(colours.seperateLines())
 
     //TODO for the three additional functions you wrote in Colours.kt, print the returned value here.
-    println("\n\nColours with a specific number of chars ${colours.coloursWithMoreCharsThan(3)} [ 3 was chosen]")
+    println("\n\nColours with more than 3 chars ${colours.coloursWithMoreCharsThan(3)} [ 3 was chosen]")
+
+    println("\n\nColours lowercase list ${colours.coloursLowerCase()}")
 }
