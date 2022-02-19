@@ -22,31 +22,31 @@ fun main(args: Array<String>){
     print("The list is: ")
     println(colours.getAll())
 
-    print("The List has ___ elements stored")
+    print("\nThe List has ___ elements stored")
     println(colours.numberOfColours())
 
-    print("___ is the first colour in the list")
+    print("\n___ is the first colour in the list")
     println(colours.firstColour())
 
-    print("___ is the last colour in the list")
+    print("\n___ is the last colour in the list")
     print(colours.lastColour())
 
-    println("Sorted list is: ")
+    println("\n\nSorted list is: ")
     print(colours.coloursInAplhabeticOrder())
 
-    print("CAPITALISED list is:")
+    print("\n\nCAPITALISED list is:")
     print(colours.coloursInAllCapitals())
 
-    println("Colours starting with specific letter ___ [ B was chosen ]")
+    println("\n\nColours starting with specific letter ___ [ B was chosen ]")
     print(colours.coloursStartingWithLetter('B'))
 
-    print("Colours with a specific number of chars ___ [ 6 was chosen]")
+    print("\n\nColours with a specific number of chars ___ [ 6 was chosen]")
     println(colours.coloursWithSpecificNumberOfChars(6))
 
-    println("___ have less than less 6 chars ")
+    println("\n___ have less than less 6 chars ")
     print (colours.coloursWithLessCharsThan(6))
 
-    println("True or false, is blue in the list: ")
+    println("\n\nTrue or false, is blue in the list: ")
     print(colours.isColourInTheList("blue"))
 
     println("The list of colours, each printed on a new line is:")
