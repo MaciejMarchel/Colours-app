@@ -41,7 +41,7 @@ fun main(args: Array<String>){
     println("\n${colours.coloursWithLessCharsThan(6)} have less than less 6 chars ")
 
     println("\n\nTrue or false, is blue in the list: ")
-    print(colours.isColourInTheList("pink"))
+    print(colours.isColourInTheList("blue"))
 
     println("\nThe list of colours, each printed on a new line is:")
     //TODO Write Code here (below this comment) to print the list in this format:
@@ -49,6 +49,8 @@ fun main(args: Array<String>){
     //    Colour: Orange
     //    ...
     //    Colour: Silver
+
+    print(colours.seperateLines())
 
     //TODO for the three additional functions you wrote in Colours.kt, print the returned value here.
 

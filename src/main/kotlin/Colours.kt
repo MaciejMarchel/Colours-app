@@ -56,6 +56,14 @@ class Colours {
     //TODO Write THREE additional functions of your choice that will perform some sort of
     // analysis on the colours list.
 
+    fun seperateLines() {
+        colours.forEach {
+            println(it)
+        }
+    }
+
+
+
 }
 
 
