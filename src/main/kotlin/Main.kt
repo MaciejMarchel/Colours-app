@@ -34,11 +34,9 @@ fun main(args: Array<String>){
     print("\n\nCAPITALISED list is:")
     print(colours.coloursInAllCapitals())
 
-    println("\n\nColours starting with specific letter ___ [ B was chosen ]")
-    print(colours.coloursStartingWithLetter('B'))
+    println("\n\nColours starting with specific letter ${colours.coloursStartingWithLetter('B')} [ B was chosen ]")
 
-    print("\n\nColours with a specific number of chars ___ [ 6 was chosen]")
-    println(colours.coloursWithSpecificNumberOfChars(6))
+    print("\n\nColours with a specific number of chars ${colours.coloursWithSpecificNumberOfChars(6)} [ 6 was chosen]")
 
     println("\n___ have less than less 6 chars ")
     print (colours.coloursWithLessCharsThan(6))
