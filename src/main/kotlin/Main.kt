@@ -24,10 +24,9 @@ fun main(args: Array<String>){
 
     print("\nThe List has ${colours.numberOfColours()} elements stored ")
 
-    print("\n\n ${colours.firstColour()} is the first colour in the list")
+    print("\n\n${colours.firstColour()} is the first colour in the list")
 
-    print("\n___ is the last colour in the list")
-    print(colours.lastColour())
+    print("\n${colours.lastColour()} is the last colour in the list")
 
     println("\n\nSorted list is: ")
     print(colours.coloursInAplhabeticOrder())
