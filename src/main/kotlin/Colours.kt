@@ -24,7 +24,7 @@ class Colours {
 
     fun coloursInAplhabeticOrder() : List<String>{
         //TODO return the colours in alphabetical order
-        return listOf(" this should return colours in alphabetic order")
+        return colours.sortedBy { it }
     }
 
     fun coloursInAllCapitals() : List<String>{
