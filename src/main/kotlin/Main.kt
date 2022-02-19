@@ -22,10 +22,9 @@ fun main(args: Array<String>){
     print("\nThe list is: ")
     println(colours.getAll())
 
-    print("\nThe List has ___ elements stored")
-    println(colours.numberOfColours())
+    print("\nThe List has ${colours.numberOfColours()} elements stored ")
 
-    print("\n___ is the first colour in the list")
+    print("\n\n___ is the first colour in the list")
     println(colours.firstColour())
 
     print("\n___ is the last colour in the list")
