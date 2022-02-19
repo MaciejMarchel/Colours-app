@@ -69,6 +69,7 @@ class Colours {
         return colours.filter { it.length > size }
     }
 
+    //converts the list to lowercase
     fun coloursLowerCase(): List<String> {
        return colours.map { it.lowercase() }
     }
