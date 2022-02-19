@@ -55,13 +55,17 @@ class Colours {
 
     //TODO Write THREE additional functions of your choice that will perform some sort of
     // analysis on the colours list.
-
+    // Seperates the list content onto now lines
     fun seperateLines() {
         colours.forEach {
             println(it)
         }
     }
 
+    //Checks for colour names with more than the number passed as a parameter
+    fun coloursWithMoreCharsThan(size: Int) : List<String>{
+        return colours.filter { it.length > size }
+    }
 
 
 }
