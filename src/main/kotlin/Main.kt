@@ -41,9 +41,9 @@ fun main(args: Array<String>){
     println("\n${colours.coloursWithLessCharsThan(6)} have less than less 6 chars ")
 
     println("\n\nTrue or false, is blue in the list: ")
-    print(colours.isColourInTheList("blue"))
+    print(colours.isColourInTheList("pink"))
 
-    println("The list of colours, each printed on a new line is:")
+    println("\nThe list of colours, each printed on a new line is:")
     //TODO Write Code here (below this comment) to print the list in this format:
     //    Colour: Red
     //    Colour: Orange
